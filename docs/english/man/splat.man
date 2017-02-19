@@ -716,7 +716,7 @@ used when it is desirable to generate a map that is devoid of terrain:
 The resulting .ppm image file can be converted to .png format with a
 transparent background using \fBImageMagick\fP's \fBconvert\fP utility:
 .PP
-\fCconvert -transparent "#FFFFFF" white_map.ppm transparent_map.png\fR
+\fCconvert -transparent "#FFFFFF" white_map.ppm PNG32:transparent_map.png\fR
 .SH REGIONAL COVERAGE ANALYSIS
 \fBSPLAT!\fP can analyze a transmitter or repeater site, or network
 of sites, and predict the regional coverage for each site specified.
